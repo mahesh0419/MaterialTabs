@@ -48,7 +48,7 @@ public class CustomViewIconTextTabsActivity extends AppCompatActivity {
     private void setupTabIcons() {
 
         TextView tabOne = (TextView) LayoutInflater.from(this).inflate(R.layout.custom_tab, null);
-        tabOne.setText("ONE");
+        tabOne.setText("ON55E");
         tabOne.setCompoundDrawablesWithIntrinsicBounds(0, R.drawable.ic_tab_favourite, 0, 0);
         tabLayout.getTabAt(0).setCustomView(tabOne);
 
